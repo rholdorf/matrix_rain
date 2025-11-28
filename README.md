@@ -32,7 +32,8 @@ No installation required - this is a standalone Python application using only th
 Simply clone or download the repository:
 
 ```bash
-cd /Users/rui/matrix_rain
+git clone git@github.com:rholdorf/matrix_rain.git
+cd matrix_rain
 ```
 
 ## Usage
@@ -40,13 +41,7 @@ cd /Users/rui/matrix_rain
 ### Run with Python
 
 ```bash
-python run_matrix.py
-```
-
-Or run as a module:
-
-```bash
-python -m matrix_rain.main
+python3 run_matrix.py
 ```
 
 ### Make Executable (Unix/Linux/macOS)
@@ -156,4 +151,4 @@ This is a research and educational implementation recreating the visual effect f
 
 ## Version
 
-1.0.0 - Initial implementation based on research findings
+1.0.0 - Initial implementation based on research findings. Vibe coded with Claude 5.1.
